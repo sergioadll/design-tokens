@@ -1,4 +1,4 @@
-import StyleDictionary from "style-dictionary";
+const StyleDictionary = require("style-dictionary");
 
 const config = {
   source: ["tokens/*.json"],
@@ -19,7 +19,6 @@ const config = {
     },
   },
 };
-const baseConfig = JSON.stringify(config);
 
 StyleDictionary.registerTransform({
   name: "size/px",
@@ -77,6 +76,6 @@ StyleDictionary.registerFilter({
   },
 });
 
-const StyleDictionaryExtended = StyleDictionary.extend(baseConfig);
+const StyleDictionaryExtended = StyleDictionary.extend(config);
 
 StyleDictionaryExtended.buildAllPlatforms();

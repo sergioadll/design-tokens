@@ -1,5 +1,5 @@
 # Name of the action visible in the action overview
-name: updates tokens send from figma
+name: updates tokens sent from figma
 # this triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
 on:
   repository_dispatch:

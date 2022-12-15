@@ -5,10 +5,10 @@ const config = {
   platforms: {
     css: {
       transformGroup: "custom/css",
-      buildPath: "build/css/",
+      buildPath: "css/",
       files: [
         {
-          destination: "_variables.css",
+          destination: "variables.css",
           format: "css/variables",
           filter: "validToken",
           options: {

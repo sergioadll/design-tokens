@@ -1,5 +1,7 @@
 import reactLogo from "./assets/react.svg";
 
+import "../css/variables.css";
+
 function App() {
   return (
     <div>

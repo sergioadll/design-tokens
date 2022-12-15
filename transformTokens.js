@@ -5,7 +5,7 @@ const config = {
   platforms: {
     css: {
       transformGroup: "custom/css",
-      buildPath: "css/",
+      buildPath: "public/css/",
       files: [
         {
           destination: "variables.css",
